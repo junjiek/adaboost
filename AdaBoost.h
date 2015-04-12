@@ -103,7 +103,9 @@ private:
 
     // Data for training
     std::vector< std::vector<int> > sortedSampleIndices_;
+    // Sum of the weights
     double weightSum_;
+    // Sum of the weights * label
     double weightLabelSum_;
     double positiveWeightSum_;
     double negativeWeightSum_;
